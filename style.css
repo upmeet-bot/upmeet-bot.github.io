@@ -1,0 +1,38 @@
+.hide-credentials {
+  display: none;
+  background-color: #f2f2f2;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50px;
+  padding: 50px 70px;
+  box-sizing: border-box;
+  box-shadow: 0 0 50px #333;
+}
+
+.hide-credentials > p {
+  margin: 15px 10px;
+}
+
+.hide-credentials > input {
+  border: none;
+  outline: none;
+  height: 25px;
+  padding: 15px;
+  margin: 10px;
+  width: 300px;
+  border-radius: 20px;
+  border: rgb(218, 218, 218) 1px solid;
+}
+
+.hide-credentials > button, .cancel {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  margin-top: 10px;
+}
+
+.hide-credentials > button {
+  margin-top: 40px;
+}
